@@ -69,7 +69,7 @@ This design allows the model to generate more physiologically consistent and str
 
 ## Qualitative Results
 
-This section presents representative visual results of our method from three perspectives: static frame reconstruction by HFSE, dynamic video reconstruction, and clinical validation through left ventricular segmentation consistency.
+This section presents representative results from three complementary perspectives: HFSE reconstruction quality, dynamic video reconstruction, and clinical validation through left ventricular segmentation.
 
 ---
 
@@ -78,24 +78,30 @@ This section presents representative visual results of our method from three per
 <table align="center">
   <tr>
     <td align="center">
-      <img src="assets/hfse_result1.png" alt="HFSE reconstruction result 1" width="300"><br>
-      <sub><b>Example 1</b></sub>
+      <img src="assets/hfse_1_a.png" alt="HFSE comparison 1 - image A" width="280">
+      <img src="assets/hfse_1_b.png" alt="HFSE comparison 1 - image B" width="280"><br>
+      <sub><b>Comparison 1</b></sub>
     </td>
+  </tr>
+  <tr>
     <td align="center">
-      <img src="assets/hfse_result2.png" alt="HFSE reconstruction result 2" width="300"><br>
-      <sub><b>Example 2</b></sub>
+      <img src="assets/hfse_2_a.png" alt="HFSE comparison 2 - image A" width="280">
+      <img src="assets/hfse_2_b.png" alt="HFSE comparison 2 - image B" width="280"><br>
+      <sub><b>Comparison 2</b></sub>
     </td>
+  </tr>
+  <tr>
     <td align="center">
-      <img src="assets/hfse_result3.png" alt="HFSE reconstruction result 3" width="300"><br>
-      <sub><b>Example 3</b></sub>
+      <img src="assets/hfse_3_a.png" alt="HFSE comparison 3 - image A" width="280">
+      <img src="assets/hfse_3_b.png" alt="HFSE comparison 3 - image B" width="280"><br>
+      <sub><b>Comparison 3</b></sub>
     </td>
   </tr>
 </table>
 
 <p align="center">
   <em>
-    Figure 1. Representative reconstruction comparisons of HFSE. 
-    These examples illustrate the ability of HFSE to preserve anatomical structures and local high-frequency details in compact latent representations.
+    Figure 1. Representative HFSE reconstruction comparisons. Each pair shows a visual comparison for one example, highlighting the ability of HFSE to preserve anatomical structures and local details under compact latent representation.
   </em>
 </p>
 
@@ -106,52 +112,64 @@ This section presents representative visual results of our method from three per
 <table align="center">
   <tr>
     <td align="center">
-      <img src="assets/dynamic_result1.png" alt="Dynamic reconstruction result 1" width="300"><br>
-      <sub><b>Example 1</b></sub>
+      <img src="assets/dynamic_1_a.png" alt="Dynamic comparison 1 - image A" width="280">
+      <img src="assets/dynamic_1_b.png" alt="Dynamic comparison 1 - image B" width="280"><br>
+      <sub><b>Comparison 1</b></sub>
     </td>
+  </tr>
+  <tr>
     <td align="center">
-      <img src="assets/dynamic_result2.png" alt="Dynamic reconstruction result 2" width="300"><br>
-      <sub><b>Example 2</b></sub>
+      <img src="assets/dynamic_2_a.png" alt="Dynamic comparison 2 - image A" width="280">
+      <img src="assets/dynamic_2_b.png" alt="Dynamic comparison 2 - image B" width="280"><br>
+      <sub><b>Comparison 2</b></sub>
     </td>
+  </tr>
+  <tr>
     <td align="center">
-      <img src="assets/dynamic_result3.png" alt="Dynamic reconstruction result 3" width="300"><br>
-      <sub><b>Example 3</b></sub>
+      <img src="assets/dynamic_3_a.png" alt="Dynamic comparison 3 - image A" width="280">
+      <img src="assets/dynamic_3_b.png" alt="Dynamic comparison 3 - image B" width="280"><br>
+      <sub><b>Comparison 3</b></sub>
     </td>
   </tr>
 </table>
 
 <p align="center">
   <em>
-    Figure 2. Representative dynamic reconstruction comparisons of the proposed method.
-    The results demonstrate favorable preservation of motion continuity and structural evolution throughout the cardiac cycle.
+    Figure 2. Representative dynamic video reconstruction comparisons. Each pair illustrates one example of cardiac motion reconstruction, showing the preservation of temporal continuity and structural evolution across the cardiac cycle.
   </em>
 </p>
 
 ---
 
-### 3. Clinical Validation by Left Ventricular Segmentation
+### 3. Clinical Validation via Left Ventricular Segmentation
 
 <table align="center">
   <tr>
     <td align="center">
-      <img src="assets/clinical_result1.png" alt="Clinical validation result 1" width="300"><br>
-      <sub><b>Example 1</b></sub>
+      <img src="assets/seg_1_a.png" alt="Segmentation comparison 1 - image A" width="280">
+      <img src="assets/seg_1_b.png" alt="Segmentation comparison 1 - image B" width="280"><br>
+      <sub><b>Comparison 1</b></sub>
     </td>
+  </tr>
+  <tr>
     <td align="center">
-      <img src="assets/clinical_result2.png" alt="Clinical validation result 2" width="300"><br>
-      <sub><b>Example 2</b></sub>
+      <img src="assets/seg_2_a.png" alt="Segmentation comparison 2 - image A" width="280">
+      <img src="assets/seg_2_b.png" alt="Segmentation comparison 2 - image B" width="280"><br>
+      <sub><b>Comparison 2</b></sub>
     </td>
+  </tr>
+  <tr>
     <td align="center">
-      <img src="assets/clinical_result3.png" alt="Clinical validation result 3" width="300"><br>
-      <sub><b>Example 3</b></sub>
+      <img src="assets/seg_3_a.png" alt="Segmentation comparison 3 - image A" width="280">
+      <img src="assets/seg_3_b.png" alt="Segmentation comparison 3 - image B" width="280"><br>
+      <sub><b>Comparison 3</b></sub>
     </td>
   </tr>
 </table>
 
 <p align="center">
   <em>
-    Figure 3. Clinical validation examples based on left ventricular segmentation.
-    The dynamic segmentation comparisons indicate that the reconstructed videos retain clinically relevant structural and functional information.
+    Figure 3. Clinical validation examples based on left ventricular segmentation. Each pair compares the dynamic segmentation results for one case, indicating that the reconstructed videos retain clinically meaningful structural and functional information.
   </em>
 </p>
 ---
