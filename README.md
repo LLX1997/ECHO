@@ -7,10 +7,9 @@
 <p align="center">
   <a href="#overview">Overview</a> •
   <a href="#method">Method</a> •
-  <a href="#results">Results</a> •
+  <a href="#Qualitative-Results">Qualitative Results</a> •
   <a href="#release-plan">Release Plan</a> •
-  <a href="#contact">Contact</a> •
-  <a href="#citation">Citation</a>
+  <a href="#contact">Contact</a>  •
 </p>
 
 ---
@@ -19,9 +18,9 @@
 
 **Li Longxi** 1, **Guo Yanbin** 1, **Liu Yingbin** 1, **Yu Xianwen** 1, **Wang  Guoping** 1*
 
-`<sup>`1 `</sup>` Hubei Bioinformatics & Molecular Imaging Key Laboratory, Department of Biomedical Engineering, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan, 430074, China
+1 Hubei Bioinformatics & Molecular Imaging Key Laboratory, Department of Biomedical Engineering, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan, 430074, China
 
-`<sup>`*`</sup>` Corresponding author
+* Corresponding author
 
 ---
 
@@ -29,7 +28,7 @@
 
 For questions, technical discussions, or academic collaborations, please contact:
 
-- **[Li Longxi]** — longxili@hust.edu.cn
+- **Li Longxi** — longxili@hust.edu.cn
 
 ---
 
@@ -44,9 +43,6 @@ Echocardiography is a core imaging modality for cardiac function assessment, but
 - **structural priors** from end-diastolic (ED) and end-systolic (ES) key frames, and
 - **physiological temporal priors** from continuous cardiac phase information.
 
-The framework is designed to preserve anatomical structure, temporal continuity, and clinical functional consistency under highly compressed settings.
-
----
 
 ## Method
 
@@ -71,17 +67,94 @@ This design allows the model to generate more physiologically consistent and str
 
 ---
 
-## Results
+## Qualitative Results
 
-### Visual Illustration
+This section presents representative visual results of our method from three perspectives: static frame reconstruction by HFSE, dynamic video reconstruction, and clinical validation through left ventricular segmentation consistency.
+
+---
+
+### 1. HFSE Reconstruction Results
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="assets/hfse_result1.png" alt="HFSE reconstruction result 1" width="300"><br>
+      <sub><b>Example 1</b></sub>
+    </td>
+    <td align="center">
+      <img src="assets/hfse_result2.png" alt="HFSE reconstruction result 2" width="300"><br>
+      <sub><b>Example 2</b></sub>
+    </td>
+    <td align="center">
+      <img src="assets/hfse_result3.png" alt="HFSE reconstruction result 3" width="300"><br>
+      <sub><b>Example 3</b></sub>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
-  <img src="assets/teaser.png" alt="Method overview and qualitative results" width="92%">
+  <em>
+    Figure 1. Representative reconstruction comparisons of HFSE. 
+    These examples illustrate the ability of HFSE to preserve anatomical structures and local high-frequency details in compact latent representations.
+  </em>
 </p>
 
+---
+
+### 2. Dynamic Video Reconstruction Results
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="assets/dynamic_result1.png" alt="Dynamic reconstruction result 1" width="300"><br>
+      <sub><b>Example 1</b></sub>
+    </td>
+    <td align="center">
+      <img src="assets/dynamic_result2.png" alt="Dynamic reconstruction result 2" width="300"><br>
+      <sub><b>Example 2</b></sub>
+    </td>
+    <td align="center">
+      <img src="assets/dynamic_result3.png" alt="Dynamic reconstruction result 3" width="300"><br>
+      <sub><b>Example 3</b></sub>
+    </td>
+  </tr>
+</table>
+
 <p align="center">
-  <em>Figure 1. Overview of the proposed framework and representative qualitative reconstruction results.</em>
+  <em>
+    Figure 2. Representative dynamic reconstruction comparisons of the proposed method.
+    The results demonstrate favorable preservation of motion continuity and structural evolution throughout the cardiac cycle.
+  </em>
 </p>
+
+---
+
+### 3. Clinical Validation by Left Ventricular Segmentation
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="assets/clinical_result1.png" alt="Clinical validation result 1" width="300"><br>
+      <sub><b>Example 1</b></sub>
+    </td>
+    <td align="center">
+      <img src="assets/clinical_result2.png" alt="Clinical validation result 2" width="300"><br>
+      <sub><b>Example 2</b></sub>
+    </td>
+    <td align="center">
+      <img src="assets/clinical_result3.png" alt="Clinical validation result 3" width="300"><br>
+      <sub><b>Example 3</b></sub>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <em>
+    Figure 3. Clinical validation examples based on left ventricular segmentation.
+    The dynamic segmentation comparisons indicate that the reconstructed videos retain clinically relevant structural and functional information.
+  </em>
+</p>
+---
 
 ### Highlights
 
