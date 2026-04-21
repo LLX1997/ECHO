@@ -17,12 +17,11 @@
 
 ## Authors
 
-**[Your Name]**<sup>1</sup>, **[Co-author Name]**<sup>1</sup>, **[Co-author Name]**<sup>2</sup>, **[Corresponding Author Name]**<sup>1,*</sup>
+**Li Longxi** 1, **Guo Yanbin** 1, **Liu Yingbin** 1, **Yu Xianwen** 1, **Wang  Guoping** 1*
 
-<sup>1</sup> [Affiliation 1]  
-<sup>2</sup> [Affiliation 2]  
+`<sup>`1 `</sup>` Hubei Bioinformatics & Molecular Imaging Key Laboratory, Department of Biomedical Engineering, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan, 430074, China
 
-<sup>*</sup> Corresponding author
+`<sup>`*`</sup>` Corresponding author
 
 ---
 
@@ -30,8 +29,7 @@
 
 For questions, technical discussions, or academic collaborations, please contact:
 
-- **[Your Name]** — [your_email@domain.com]
-- **[Corresponding Author Name]** — [corresponding_author@domain.com]
+- **[Li Longxi]** — longxili@hust.edu.cn
 
 ---
 
@@ -43,7 +41,7 @@ This repository is the official project page for the paper:
 
 Echocardiography is a core imaging modality for cardiac function assessment, but long-term storage and transmission of full video sequences remain challenging under the rapid growth of medical data. To address this problem, we propose a generative compression–reconstruction framework that combines:
 
-- **structural priors** from end-diastolic (ED) and end-systolic (ES) key frames, and  
+- **structural priors** from end-diastolic (ED) and end-systolic (ES) key frames, and
 - **physiological temporal priors** from continuous cardiac phase information.
 
 The framework is designed to preserve anatomical structure, temporal continuity, and clinical functional consistency under highly compressed settings.
@@ -55,6 +53,7 @@ The framework is designed to preserve anatomical structure, temporal continuity,
 Our framework consists of two main components:
 
 ### 1. High-Frequency Semantic Encoder (HFSE)
+
 HFSE learns compact latent representations from echocardiographic frames while preserving:
 
 - global anatomical semantics,
@@ -62,6 +61,7 @@ HFSE learns compact latent representations from echocardiographic frames while p
 - high-frequency texture details.
 
 ### 2. AnchorPhaseFlow
+
 AnchorPhaseFlow reconstructs the full echocardiography video in latent space by jointly leveraging:
 
 - ED/ES structural anchors, and
@@ -83,9 +83,7 @@ This design allows the model to generate more physiologically consistent and str
   <em>Figure 1. Overview of the proposed framework and representative qualitative reconstruction results.</em>
 </p>
 
-> Please replace `assets/teaser.png` with your own figure file.
-
-### Key Findings
+### Highlights
 
 - The proposed framework achieves high-fidelity reconstruction under compact latent representation settings.
 - HFSE improves structural detail preservation compared with conventional latent encoding strategies.
@@ -122,3 +120,4 @@ The full project structure will be released after publication. A typical organiz
 ├── scripts/                 # training / testing scripts
 ├── utils/                   # helper functions
 └── README.md
+```
