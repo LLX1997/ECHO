@@ -78,22 +78,22 @@ This section presents representative results from three complementary perspectiv
 <table align="center">
   <tr>
     <td align="center">
-      <img src="assets/hfse_1_a.png" alt="HFSE comparison 1 - image A" width="280">
-      <img src="assets/hfse_1_b.png" alt="HFSE comparison 1 - image B" width="280"><br>
+      <img src="HFSE/original_1.png" alt="HFSE comparison 1 - image A" width="280">
+      <img src="HFSE/reconstructed_1.png" alt="HFSE comparison 1 - image B" width="280"><br>
       <sub><b>Comparison 1</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="assets/hfse_2_a.png" alt="HFSE comparison 2 - image A" width="280">
-      <img src="assets/hfse_2_b.png" alt="HFSE comparison 2 - image B" width="280"><br>
+      <img src="HFSE/original_2.png" alt="HFSE comparison 2 - image A" width="280">
+      <img src="HFSE/reconstructed_2.png" alt="HFSE comparison 2 - image B" width="280"><br>
       <sub><b>Comparison 2</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="assets/hfse_3_a.png" alt="HFSE comparison 3 - image A" width="280">
-      <img src="assets/hfse_3_b.png" alt="HFSE comparison 3 - image B" width="280"><br>
+      <img src="HFSE/reconstructed_3.png" alt="HFSE comparison 3 - image A" width="280">
+      <img src="HFSE/reconstructed_3.png" alt="HFSE comparison 3 - image B" width="280"><br>
       <sub><b>Comparison 3</b></sub>
     </td>
   </tr>
@@ -112,22 +112,22 @@ This section presents representative results from three complementary perspectiv
 <table align="center">
   <tr>
     <td align="center">
-      <img src="assets/dynamic_1_a.png" alt="Dynamic comparison 1 - image A" width="280">
-      <img src="assets/dynamic_1_b.png" alt="Dynamic comparison 1 - image B" width="280"><br>
+      <img src="Dynamic_Video_Reconstruction/sample_1_gt.gif" alt="Dynamic comparison 1 - image A" width="280">
+      <img src="Dynamic_Video_Reconstruction/sample_1.gif" alt="Dynamic comparison 1 - image B" width="280"><br>
       <sub><b>Comparison 1</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="assets/dynamic_2_a.png" alt="Dynamic comparison 2 - image A" width="280">
-      <img src="assets/dynamic_2_b.png" alt="Dynamic comparison 2 - image B" width="280"><br>
+      <img src="Dynamic_Video_Reconstruction/sample_2_gt.gif" alt="Dynamic comparison 2 - image A" width="280">
+      <img src="Dynamic_Video_Reconstruction/sample_2.gif" alt="Dynamic comparison 2 - image B" width="280"><br>
       <sub><b>Comparison 2</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="assets/dynamic_3_a.png" alt="Dynamic comparison 3 - image A" width="280">
-      <img src="assets/dynamic_3_b.png" alt="Dynamic comparison 3 - image B" width="280"><br>
+      <img src="Dynamic_Video_Reconstruction/sample_3_gt.gif" alt="Dynamic comparison 3 - image A" width="280">
+      <img src="Dynamic_Video_Reconstruction/sample_3.gif" alt="Dynamic comparison 3 - image B" width="280"><br>
       <sub><b>Comparison 3</b></sub>
     </td>
   </tr>
@@ -146,22 +146,22 @@ This section presents representative results from three complementary perspectiv
 <table align="center">
   <tr>
     <td align="center">
-      <img src="assets/seg_1_a.png" alt="Segmentation comparison 1 - image A" width="280">
-      <img src="assets/seg_1_b.png" alt="Segmentation comparison 1 - image B" width="280"><br>
+      <img src="Left_Ventricular_Segmentation/sample_1_gt_seg.gif" alt="Segmentation comparison 1 - image A" width="280">
+      <img src="Left_Ventricular_Segmentation/sample_1_recon_seg.gif" alt="Segmentation comparison 1 - image B" width="280"><br>
       <sub><b>Comparison 1</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="assets/seg_2_a.png" alt="Segmentation comparison 2 - image A" width="280">
-      <img src="assets/seg_2_b.png" alt="Segmentation comparison 2 - image B" width="280"><br>
+      <img src="Left_Ventricular_Segmentation/sample_2_gt_seg.gif" alt="Segmentation comparison 2 - image A" width="280">
+      <img src="Left_Ventricular_Segmentation/sample_2_recon_seg.gif" alt="Segmentation comparison 2 - image B" width="280"><br>
       <sub><b>Comparison 2</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="assets/seg_3_a.png" alt="Segmentation comparison 3 - image A" width="280">
-      <img src="assets/seg_3_b.png" alt="Segmentation comparison 3 - image B" width="280"><br>
+      <img src="Left_Ventricular_Segmentation/sample_3_gt_seg.gif" alt="Segmentation comparison 3 - image A" width="280">
+      <img src="Left_Ventricular_Segmentation/sample_3_recon_seg.gif" alt="Segmentation comparison 3 - image B" width="280"><br>
       <sub><b>Comparison 3</b></sub>
     </td>
   </tr>
